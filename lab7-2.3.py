@@ -19,9 +19,6 @@ def main():
 
     dagger_dick = int(sum(masa))
 
-    print("checkpoint 1", masa)
-    print("piles", piles)
-
     dalyarak = True
     m = min(masa)
     n = masa.index(m)
@@ -29,8 +26,6 @@ def main():
         eksik = int(45 - dagger_dick)
         masa[n] = m + eksik
         dalyarak = False
-
-    print("checkpoint 2", masa)
 
     while masa != wanted:
         for i in range(0, len(masa)):
